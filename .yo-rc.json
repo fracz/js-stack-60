@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Nowoczesny stos JS w 60 minut",
+    "packageVersion": "0.0.0",
+    "revealTheme": "black",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "fracz",
+    "githubRepository": "js-stack-slides"
+  }
+}
