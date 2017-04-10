@@ -1,1 +1,15 @@
-["index.md"]
+[
+    {
+        "filename": "000_title.html",
+        "attr": {
+            "data-transition": "fade-out"
+        }
+    },
+    {
+        "filename": "001_title-fix.html",
+        "attr": {
+            "data-transition": "fade-in"
+        }
+    }
+    
+]
