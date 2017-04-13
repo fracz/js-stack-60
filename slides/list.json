@@ -17,5 +17,10 @@
             "data-transition": "convex"
         }
     },
-    "typed.html"
+    {
+        "filename": "typed.html",
+        "attr": {
+            "data-state": "blabla"
+        }
+    }
 ]

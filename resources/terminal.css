@@ -1,0 +1,83 @@
+.terminal {
+    height: 500px;
+    background: #111;
+    text-align: left;
+    font-family: Consolas, monospace !important;
+    padding: 10px 15px !important;
+    overflow: auto;
+}
+
+.terminal.executing .typed-cursor, .terminal.executed .typed-cursor {
+    display: none;
+}
+
+.terminal.executing .execution-indicator {
+    display: block;
+}
+
+.terminal .command:before {
+    content: '$';
+    margin-right: 10px;
+}
+
+span[run-command] {
+    display: none;
+}
+
+.execution-indicator {
+    display: none;
+}
+
+.execution-indicator img {
+    background: none !important;
+    height: 70px;
+}
+
+pre.result {
+    margin: 0;
+    font-size: inherit;
+}
+
+.typed-cursor, .initial-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
