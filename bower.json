@@ -4,6 +4,8 @@
   "dependencies": {
     "reveal.js": "~3.3.0",
     "highlightjs": "~9.0.0",
-    "pure": "^0.6.2"
+    "pure": "^0.6.2",
+    "typed.js": "^1.1.7",
+    "jquery": "^3.2.1"
   }
 }
