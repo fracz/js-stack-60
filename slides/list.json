@@ -10,6 +10,12 @@
         "attr": {
             "data-transition": "fade-in"
         }
+    },
+    {
+        "filename": "002_about.html",
+        "attr": {
+            "data-transition": "convex"
+        }
     }
-    
+
 ]
