@@ -28,10 +28,37 @@
     "006_monsters.html",
     "007_good_parts.html",
     "008_js_then.html",
+    "009_ajax.html",
     {
-        "filename": "typed.html",
+        "filename": "010_js_now.html",
         "attr": {
-            "data-state": "blabla"
+            "data-transition": "fade-out"
         }
-    }
+    },
+    {
+        "filename": "011_js_now_focus.html",
+        "attr": {
+            "data-transition": "fade-in"
+        }
+    },
+    "012_toolset.html",
+    "013_node.html",
+    "014_npm.html",
+    "015_init.html",
+    "016_es.html",
+    {
+        "filename": "017_ie.html",
+        "attr": {
+            "data-transition": "fade-out"
+        }
+    },
+    {
+        "filename": "018_ie_troll.html",
+        "attr": {
+            "data-transition": "fade-in"
+        }
+    },
+    "019_babel.html",
+    "020_es6_example.html",
+    "021_babel-deps.html"
 ]

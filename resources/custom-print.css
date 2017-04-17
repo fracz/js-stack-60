@@ -1,0 +1,13 @@
+@import "../bower_components/reveal.js/css/print/pdf.css";
+
+.terminal .result {
+    display: block !important;
+}
+
+.terminal .command .text {
+    display: inline !important;
+}
+
+.terminal .initial-cursor {
+    display: none;
+}

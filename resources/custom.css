@@ -7,3 +7,16 @@
     font-size: .4em !important;
     text-align: center;
 }
+
+.fa {
+    font-family: 'FontAwesome' !important;
+    font-style: normal !important;
+}
+
+.fa-3x {
+    font-size: 3em !important;
+}
+
+img.plain {
+    background: transparent !important;
+}

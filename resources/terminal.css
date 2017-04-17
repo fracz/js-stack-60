@@ -1,5 +1,5 @@
 .terminal {
-    height: 500px;
+    height: 550px;
     background: #111;
     text-align: left;
     font-family: Consolas, monospace !important;
@@ -7,7 +7,11 @@
     overflow: auto;
 }
 
-.terminal.executing .typed-cursor, .terminal.executed .typed-cursor {
+.terminal .result {
+    color: lightgoldenrodyellow;
+}
+
+.terminal.executing .typed-cursor, .terminal.executed .typed-cursor, span[run-command], .terminal .result, .terminal .command .text, .execution-indicator {
     display: none;
 }
 
@@ -15,17 +19,13 @@
     display: block;
 }
 
+.terminal.executed .result {
+    display: block;
+}
+
 .terminal .command:before {
     content: '$';
     margin-right: 10px;
-}
-
-span[run-command] {
-    display: none;
-}
-
-.execution-indicator {
-    display: none;
 }
 
 .execution-indicator img {
