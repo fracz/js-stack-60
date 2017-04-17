@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+.copyright {
+    opacity: .3;
+    font-size: .4em !important;
+    text-align: center;
+}

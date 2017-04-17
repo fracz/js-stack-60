@@ -18,6 +18,17 @@
         }
     },
     {
+        "filename": "003_js.html",
+        "attr": {
+            "data-transition": "concave"
+        }
+    },
+    "004_js_versus_java.html",
+    "005_hamster.html",
+    "006_monsters.html",
+    "007_good_parts.html",
+    "008_js_then.html",
+    {
         "filename": "typed.html",
         "attr": {
             "data-state": "blabla"
