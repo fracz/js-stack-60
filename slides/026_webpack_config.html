@@ -1,0 +1,27 @@
+<h2>Konfiguracja webpack</h2>
+<div class="terminal" time="0" delay="0" speed="5" style="font-size: 24px;">
+    <pre class="command"><span class="initial-cursor">|</span>
+        <span class="text">vi webpack.config.js
+module.exports = {
+  entry: "./src/main.js",
+  output: {
+    path: __dirname + "/dist",
+    filename: "app.js",
+    publicPath: "/"
+  },
+  module: {
+    loaders: [
+      {
+        test: /\.js$/,
+        loader: "babel-loader",
+        exclude: /node_modules/
+      }
+    ]
+  }
+}</span>
+    </pre>
+    <div class="execution-indicator"><img src="resources/images/hourglass.svg" class="plain"></div>
+    <pre class="result"></pre>
+</div>
+<span class="fragment" run-command></span>
+

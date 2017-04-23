@@ -33,7 +33,7 @@
     height: 70px;
 }
 
-pre.result {
+.terminal pre {
     margin: 0;
     font-size: inherit;
 }

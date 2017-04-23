@@ -60,5 +60,18 @@
     },
     "019_babel.html",
     "020_es6_example.html",
-    "021_babel-deps.html"
+    "021_babel-deps.html",
+    "022_ls_node_modules.html",
+    "023_ls_node_modules_inside.html",
+    "024_webpack.html",
+    "024.2_what_is_webpack.html",
+    "025_npm_install_webpack.html",
+    "025.2_npm_install_webpack_loader.html",
+    "026_webpack_config.html",
+    "027_mkdir_src.html",
+    "029_webpack_magic.html",
+    "030_vue.html",
+    "031_roadmap.html",
+    "032_install_vue.html",
+    "033_install_vue.html"
 ]
