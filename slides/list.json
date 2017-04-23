@@ -73,5 +73,6 @@
     "030_vue.html",
     "031_roadmap.html",
     "032_install_vue.html",
-    "033_install_vue.html"
+    "033_install_vue.html",
+    "035_hot_reload.html"
 ]
