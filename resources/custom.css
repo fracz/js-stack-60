@@ -20,3 +20,11 @@
 img.plain {
     background: transparent !important;
 }
+
+code .line {
+    display: block;
+}
+
+code .line.focus {
+    background: #008c25;
+}

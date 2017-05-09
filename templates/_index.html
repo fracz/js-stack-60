@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="resources/custom.css">
 
     <!-- For syntax highlighting -->
-    <link rel="stylesheet" href="bower_components/highlightjs/styles/monokai.css">
+    <link rel="stylesheet" href="bower_components/highlightjs/styles/darkula.css">
 
     <!-- Printing and PDF exports -->
     <script>
@@ -115,6 +115,16 @@
                 src: 'js/loadhtmlslides.js',
                 condition: function () {
                     return !!document.querySelector('[data-html]');
+                }
+            },
+            {
+                src: 'bower_components/reveal-code-focus/reveal-code-focus.js',
+                async: true,
+////                condition: function () {
+////                    return !!document.querySelector('[data-html]') || !!document.querySelector('pre code') || !!document.querySelector('[data-markdown]');
+////                },
+                callback: function () {
+                    RevealCodeFocus();
                 }
             }
         ]
