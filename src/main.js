@@ -1,7 +1,7 @@
-class Cat {
-  constructor() {
-    alert("Meow!");
-  }
-}
+import Vue from "vue";
+import App from "./app.vue";
 
-new Cat();
+new Vue({
+  el: "#app",
+  render: h => h(App)
+});
