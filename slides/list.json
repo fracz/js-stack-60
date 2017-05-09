@@ -123,7 +123,26 @@
             "data-transition": "fade-in"
         }
     },
-    "099_more_time.html",
+    {
+        "filename": "049_components.html",
+        "attr": {
+            "data-background": "resources/images/046_minions.gif"
+        }
+    },
+    "050_more_time.html",
+    {
+        "filename": "051_removing.html",
+        "attr": {
+            "data-background": "resources/images/046_minions.gif"
+        }
+    },
     "100_missing.html",
-    "101_missing.html"
+    "101_missing.html",
+    {
+        "filename": "102_questions.html",
+        "attr": {
+            "data-background": "resources/images/102_questions.gif"
+        }
+    },
+    "103_thank_you.html"
 ]
