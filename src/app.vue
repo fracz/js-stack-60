@@ -14,14 +14,15 @@
       </fieldset>
     </form>
 
-    <ol>
-      <li v-for="participant in savedParticipants">{{ participant }}</li>
-    </ol>
+    <participants-list :participants="savedParticipants"></participants-list>
   </div>
 </template>
 
 <script>
+  import ParticipantsList from "./participants-list.vue";
+
   export default {
+    components: {ParticipantsList},
     data() {
       return {
         title: 'Epizody',
