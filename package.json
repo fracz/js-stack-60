@@ -1,0 +1,17 @@
+{
+  "name": "js-stack-60",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "rm -fr dist && webpack"
+  },
+  "devDependencies": {
+    "babel-core": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-preset-es2015": "6.24.1",
+    "webpack": "2.5.1"
+  }
+}
