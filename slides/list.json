@@ -67,10 +67,50 @@
     "027_mkdir_src.html",
     "028_npm_script.html",
     "028_npm_script_package_json.html",
+    "029_index.html",
+    "029_directory_structure.html",
     "029_webpack_magic.html",
+    "030_agenda.html",
     "030_vue.html",
     "031_roadmap.html",
     "032_install_vue.html",
     "033_install_vue.html",
-    "035_hot_reload.html"
+    {
+        "filename": "034_first_component.html",
+        "attr": {
+            "data-background": "resources/images/034_minions.gif"
+        }
+    },
+    "035_hot_reload.html",
+    "036_install_webpack_dev_server.html",
+    "037_dev.html",
+    "040_reactive.html",
+    {
+        "filename": "041_lot_of_code.html",
+        "attr": {
+            "data-background": "resources/images/041_lot_of_code.jpg"
+        }
+    },
+    "042_component.html",
+    "043_components.html",
+    {
+        "filename": "044_hierarchy.html",
+        "attr": {
+            "data-transition": "fade-out"
+        }
+    },
+    {
+        "filename": "045_hierarchy.html",
+        "attr": {
+            "data-transition": "fade-in"
+        }
+    },
+    {
+        "filename": "046_components.html",
+        "attr": {
+            "data-background": "resources/images/046_minions.gif"
+        }
+    },
+    "100_missing.html",
+    "101_missing.html"
 ]
