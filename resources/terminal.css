@@ -38,6 +38,7 @@
     font-size: inherit;
     max-height: none !important;
     background: transparent;
+    overflow: visible !important;
 }
 
 .typed-cursor, .initial-cursor {
