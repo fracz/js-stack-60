@@ -7,6 +7,7 @@
     "pure": "^0.6.2",
     "typed.js": "^1.1.7",
     "jquery": "^3.2.1",
-    "font-awesome": "fontawesome#4.6.0"
+    "font-awesome": "fontawesome#4.6.0",
+    "reveal-code-focus": "^1.0.0"
   }
 }

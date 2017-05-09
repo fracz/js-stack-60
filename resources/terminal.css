@@ -33,9 +33,11 @@
     height: 70px;
 }
 
-.terminal pre {
+.terminal pre, .terminal code {
     margin: 0;
     font-size: inherit;
+    max-height: none !important;
+    background: transparent;
 }
 
 .typed-cursor, .initial-cursor {
