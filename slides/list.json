@@ -64,12 +64,18 @@
     "024.2_what_is_webpack.html",
     "025.2_npm_install_webpack_loader.html",
     "026_webpack_config.html",
-    "027_mkdir_src.html",
     "028_npm_script.html",
     "028_npm_script_package_json.html",
     "029_index.html",
+    "027_mkdir_src.html",
     "029_directory_structure.html",
     "029_webpack_magic.html",
+    {
+        "filename": "029_webpack_magic_cat.html",
+        "attr": {
+            "data-background": "resources/images/029_meow.gif"
+        }
+    },
     "030_agenda.html",
     "030_vue.html",
     "031_roadmap.html",
