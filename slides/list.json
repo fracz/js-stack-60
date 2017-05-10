@@ -23,8 +23,21 @@
             "data-transition": "concave"
         }
     },
+    {
+        "filename": "007_what_is_spa.html",
+        "attr": {
+            "data-background": "green",
+            "data-transition": "zoom"
+        }
+    },
     "008_js_then.html",
-    "009_ajax.html",
+    {
+        "filename": "009_ajax.html",
+        "attr": {
+            "data-background": "green",
+            "data-transition": "zoom"
+        }
+    },
     {
         "filename": "010_js_now.html",
         "attr": {
@@ -55,15 +68,36 @@
             "data-transition": "fade-in"
         }
     },
+    {
+        "filename": "019_es_today.html",
+        "attr": {
+            "data-background": "green",
+            "data-transition": "zoom"
+        }
+    },
     "019_babel.html",
     "020_es6_example.html",
     "021_babel-deps.html",
     "022_ls_node_modules.html",
     "023_ls_node_modules_inside.html",
+    {
+        "filename": "024_webpack_question.html",
+        "attr": {
+            "data-background": "green",
+            "data-transition": "zoom"
+        }
+    },
     "024_webpack.html",
     "024.2_what_is_webpack.html",
     "025.2_npm_install_webpack_loader.html",
     "026_webpack_config.html",
+    {
+        "filename": "028_how_to_build.html",
+        "attr": {
+            "data-background": "green",
+            "data-transition": "zoom"
+        }
+    },
     "028_npm_script.html",
     "028_npm_script_package_json.html",
     "029_index.html",
@@ -77,14 +111,29 @@
         }
     },
     "030_agenda.html",
+    "042_component.html",
+    "043_components.html",
+    {
+        "filename": "030_how_components.html",
+        "attr": {
+            "data-background": "green",
+            "data-transition": "zoom"
+        }
+    },
     "030_vue.html",
-    "031_roadmap.html",
     "032_install_vue.html",
     "033_install_vue.html",
     {
         "filename": "034_first_component.html",
         "attr": {
             "data-background": "resources/images/034_minions.gif"
+        }
+    },
+    {
+        "filename": "035_why_hot_reload.html",
+        "attr": {
+            "data-background": "green",
+            "data-transition": "zoom"
         }
     },
     "035_hot_reload.html",
@@ -97,8 +146,6 @@
             "data-background": "resources/images/041_lot_of_code.jpg"
         }
     },
-    "042_component.html",
-    "043_components.html",
     {
         "filename": "044_hierarchy.html",
         "attr": {
