@@ -1,7 +1,7 @@
-import Vue from "vue";
-import App from "./app.vue";
+class Cat {
+  constructor() {
+    alert("Meow!");
+  }
+}
 
-new Vue({
-  el: "#app",
-  render: h => h(App)
-});
+new Cat();
