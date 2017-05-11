@@ -1,0 +1,23 @@
+<h6 style="margin-bottom: 2px"><code>Nasza aplikacja (JS)</code></h6>
+<pre style="font-size: .75em; margin: 0; width: 100%"><code class="hljs lang-js" style="height: 600px; max-height: 600px">data() {
+  return {
+    title: 'Epizody',
+    newParticipant: '',
+    savedParticipants: []
+  }
+},
+methods: {
+  saveMe() {
+    if (this.newParticipant) {
+      this.savedParticipants.push(this.newParticipant);
+      this.newParticipant = '';
+    } else {
+      alert('You need to give us a name!');
+    }
+  }
+}</code></pre>
+<span class="fragment" data-code-focus="4"></span>
+<span class="fragment" data-code-focus="8"></span>
+<span class="fragment" data-code-focus="9"></span>
+<span class="fragment" data-code-focus="4,10"></span>
+<span class="fragment" data-code-focus="5,11"></span>

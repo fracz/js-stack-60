@@ -140,6 +140,8 @@
     "036_install_webpack_dev_server.html",
     "037_dev.html",
     "040_reactive.html",
+    "040_app_html.html",
+    "040_app_js.html",
     {
         "filename": "041_lot_of_code.html",
         "attr": {
